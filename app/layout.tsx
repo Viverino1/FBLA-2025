@@ -2,20 +2,19 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-export const geistSans = localFont({
+const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
   display: "swap"
 });
-export const geistMono = localFont({
+const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
   display: "swap"
 });
-
-export const mont = localFont({
+const mont = localFont({
   src: "./fonts/MontBold.woff",
   variable: "--font-mont",
   weight: "100 900",
